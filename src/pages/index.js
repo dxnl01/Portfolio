@@ -1,6 +1,6 @@
 import React from 'react';
 // gatsby-browser.js o gatsby-ssr.js
-import './src/styles/global.css'; // corregir este import
+import './styles/global.css'; // corregir este import
 
 const HomePage = () => {
   return (
