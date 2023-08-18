@@ -3,4 +3,52 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+/* Estilos globales personalizados */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Estilo para la página principal */
+.home-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.home-content {
+  max-width: 600px;
+  padding: 2rem;
+  background-color: #000;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.home-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.home-description {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.home-button {
+  background-color: #2d3748;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #1a202c;
+}
 
